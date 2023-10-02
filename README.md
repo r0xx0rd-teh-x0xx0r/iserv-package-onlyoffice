@@ -1,2 +1,29 @@
 # iserv-package-onlyoffice
-OnlyOffice deployment package for the iServ school Server
+
+### Installation auf dem iServ Server:
+
+#### Voraussetzungen: 
+-  root Zugriff auf dem iServ Server
+-  Git und git-lfs (git large file) müssen installiert sein, falls das nicht der Fall ist, müssen die Packete wie volg installiert werden:
+
+```
+apt-get install git git-lfs
+```
+
+
+#### Git-repository klonen:
+
+```
+git clone https://github.com/r0xx0rd-teh-x0xx0r/iserv-package-onlyoffice.git onlyoffice
+```
+
+#### In das Verzeichnis gehen und die msi-datei mit git-lfs herunterladen:
+```
+cd onlyoffice
+git lfs pull
+```
+
+#### iServ Deployment-Dienst über änderungen informieren:
+```
+chkdeploy
+```
