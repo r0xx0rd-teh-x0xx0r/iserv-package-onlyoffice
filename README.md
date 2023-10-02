@@ -10,6 +10,12 @@
 apt-get install git git-lfs
 ```
 
+#### In das Zielverzeichnis wechseln:
+
+```
+cd /srv/deploy/install/
+```
+
 
 #### Git-repository klonen:
 
