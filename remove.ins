@@ -8,7 +8,7 @@ WinBatch_Uninstall
 Sub_HandleExitCode
 
 [WinBatch_Uninstall]
-msiexec /passive /x "PATH"
+"%ScriptDrive%\tools\autoit\msiRemove_withLog.exe" "ONLYOFFICE"
 
 [Sub_HandleExitCode]
 ; check return code
